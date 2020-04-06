@@ -8,6 +8,13 @@ This repository may be particularly useful to people interested in mesh networks
 
 This means that cerain configurations may be suboptimal or even completely invalid to people connecting from other networks. Use with caution.
 
+## Instructions
+
+* Review the contents of this repository before proceeding.
+* Run `sh prepare-freifunk.sh` if you wish to add support for Freifunk or update your configuration files.
+* Run `sh setup.py`. Warning, this will replace your existing configurations!
+* Congrats, you should be good to go!
+
 ## License
 
 This repository may contain scripts that are written by myself. Unless if otherwise stated, they are all licensed under the [GNU General Public License v3](LICENSE).
