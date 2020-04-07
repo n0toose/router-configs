@@ -12,7 +12,7 @@ This means that cerain configurations may be suboptimal or even completely inval
 
 * Review the contents of this repository before proceeding.
 * Run `sh prepare-freifunk.sh` if you wish to add support for Freifunk or update your configuration files.
-* Run `sh setup.py`. Warning, this will replace your existing configurations!
+* Run `sh install-configs.sh`. Warning, this will replace your existing configurations!
 * Congrats, you should be good to go!
 
 ## License
