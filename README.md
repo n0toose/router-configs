@@ -17,7 +17,7 @@ This means that cerain configurations may be suboptimal or even completely inval
 
 ## Requirements
 
-* **python3-venv**
+* **virtualenv**
 
 The `prepare-freifunk.sh` script clones Freifunk's [icvpn-scripts](https://github.com/freifunk/icvpn-scripts) and [icvpn-meta](https://github.com/freifunk/icvpn-meta) repositories, and then runs one of the scripts ([mkdns](https://github.com/freifunk/icvpn-scripts/blob/master/mkdns)) automatically. In order to do that, the script creates a [virtual environment](https://docs.python.org/3/library/venv.html) which downloads the required dependencies without affecting your system, hence the reason why `venv` is necessary.
 
@@ -25,6 +25,12 @@ On Debian-based/Ubuntu systems, run the following with administrative privileges
 
 ```sh
 apt-get install python3-venv
+```
+
+If an equivalent package does not exist for your system, install the package with `pip`;
+
+```sh
+python -m pip install virtualenv
 ```
 
 ## License
