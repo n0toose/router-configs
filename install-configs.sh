@@ -14,3 +14,7 @@ then
     cp -rf etc/* /etc
 fi
 
+# assumes that you're running systemd
+echo "Attempting to restart dnsmasq..."
+systemctl restart dnsmasq
+echo "Done!"
