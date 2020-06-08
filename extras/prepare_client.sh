@@ -1,8 +1,11 @@
 # ======
 # Notes:
 # ======
-# Special thanks to Matthias Merkel (https://github.com/Moritz30) for helping me through this.
-# Also, thanks to Frank Wiles for his article about NAT; https://www.revsys.com/writings/quicktips/nat.html
+# This (nearly) distro-agnostic script assigns a static IP within the 192.168.42.1/24 range to the client.
+# Be careful with the interface names and IP-related conflicts.
+#
+# This is particularly useful if you're testing connectivity without DHCP.
+
 
 # IP-related configurations
 
