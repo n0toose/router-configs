@@ -15,6 +15,10 @@ then
 fi
 
 # assumes that you're running systemd
+echo "Ensuring that systemd-resolved is disabled..."
+systemctl disable --now systemd-resolved
+echo "Ensurign that dnsmasq is enabled..."
+systemctl enable --now dnsmasq
 echo "Attempting to restart dnsmasq..."
 systemctl restart dnsmasq
 echo "Done!"
