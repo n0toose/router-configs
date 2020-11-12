@@ -10,7 +10,7 @@
 # IP-related configurations
 
 ## assigns non-gateway address
-ip a a 192.168.42.2/24 dev eth0
+ip a a 192.168.42.2/24 dev enp4s0
 
 ## adds gateway address as gateway
 ## the NAT-related configurations will take care of the internet traffic
